@@ -28,7 +28,7 @@ export function CookieBanner() {
 
   const handleRejectAll = () => {
     localStorage.setItem('miod_cookie_preference', 'rejected');
-    window.location.href = 'https://www.google.com';
+    setIsVisible(false);
   };
 
   if (!isVisible) return null;
@@ -38,7 +38,7 @@ export function CookieBanner() {
       <div className="max-w-4xl mx-auto bg-miod-bg border border-miod-primary/30 p-6 md:p-8 rounded-[24px] shadow-2xl shadow-black/10 pointer-events-auto">
         <h3 className="font-serif text-2xl text-miod-text mb-3">Szanujemy Twoją prywatność</h3>
         <p className="font-sans text-sm text-miod-text-light/80 mb-6 leading-relaxed">
-          Używamy plików cookie (&quot;ciasteczek&quot;) do działania, personalizacji i analizy naszej strony. Możesz zaakceptować wszystkie, tylko te niezbędne do prawidłowego funkcjonowania lub odrzucić je w całości. Dowiedz się więcej w naszej <a href="#polityka" className="text-miod-primary font-medium hover:underline">Polityce Prywatności</a>. Ze względu na politykę prywatności, całkowita odmowa używania plików cookie uniemożliwi korzystanie ze strony.
+          Używamy plików cookie (&quot;ciasteczek&quot;) do działania, personalizacji i analizy naszej strony. Możesz zaakceptować wszystkie, tylko te niezbędne do prawidłowego funkcjonowania lub odrzucić je w całości. Dowiedz się więcej w naszej <a href="#polityka" className="text-miod-primary font-medium hover:underline">Polityce Prywatności</a>.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-end items-center">
           <button 

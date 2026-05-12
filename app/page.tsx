@@ -322,7 +322,7 @@ export default function Home() {
           
           <div className="max-w-7xl mx-auto px-6 md:px-12 text-center relative z-10">
             <FadeIn delay={0.2}>
-              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-white px-6 py-3 rounded-full shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 border border-miod-subtle">
+              <a href="https://www.google.com/maps/search/MI%C3%93D+studio+zdrowia+holistycznego+Gda%C5%84sk" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-white px-6 py-3 rounded-full shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 border border-miod-subtle">
                 <div className="flex text-miod-primary"><Star size={16} className="fill-current" /></div>
                 <span className="font-sans text-sm text-miod-text font-medium">4.9 / 5 na podstawie 194 opinii w Google</span>
               </a>

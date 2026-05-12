@@ -29,7 +29,7 @@ export function Footer() {
         </div>
         
         <div className="text-sm font-sans text-miod-bg/50">
-          © 2025 MIÓD Studio Zdrowia Holistycznego · Gdańsk
+          © 2026 MIÓD Studio Zdrowia Holistycznego · Gdańsk
         </div>
       </div>
     </footer>
