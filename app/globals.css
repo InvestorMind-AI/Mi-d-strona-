@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-miod-bg: #FAF6EE;
+  --color-miod-bg-alt: #F5EFE0;
+  --color-miod-primary: #D4A843;
+  --color-miod-primary-dark: #C8922A;
+  --color-miod-secondary: #8B4513;
+  --color-miod-text: #2C1810;
+  --color-miod-text-light: #3B2314;
+  --color-miod-subtle: #E8DDD0;
+  
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-50% - 1rem)); }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes neon-pulse {
+  0% { box-shadow: 0 0 10px rgba(212,168,67,0.4); }
+  50% { box-shadow: 0 0 25px rgba(212,168,67,0.8); }
+  100% { box-shadow: 0 0 10px rgba(212,168,67,0.4); }
+}
+
+.animate-neon-pulse {
+  animation: neon-pulse 2s infinite ease-in-out;
+}
